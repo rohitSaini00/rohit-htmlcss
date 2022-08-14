@@ -1,0 +1,1390 @@
+/*........................ Media Qureis CSS Strat.............. */
+/* NAVBAR MEDIA */
+/* (min-width: 400px) and (max-width: 630px)  */
+@media (max-width: 540px) {
+    /* ........................Home page CSS Strat.................. */
+     .navbar-menu {
+      display: none;
+    }
+    #amab-burger i {
+      font-size: 35px;
+      right: 0px;
+      cursor: pointer;
+      padding-top: 20px;
+      margin-right: 10px;
+    }
+    .navbar {
+      display: flex;
+      position: relative;
+    }
+    .navbar-btn {
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+    .navbar-logo {
+      margin-left: 10px;
+    }
+    #icons {
+      display: block;
+    }
+    #navbar-menu2 {
+      /* position: absolute; */
+      position: fixed;
+      right: 0px;
+      width: 100%;
+      background-color: rgb(226, 221, 221);
+      z-index: 9999;
+    }
+    #navbar-menu2 ul li {
+      list-style: none;
+      margin: 15px 0px;
+      text-align: center;
+    }
+    #navbar-menu2 ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      color: black;
+    }
+    #navbar-menu2 ul li a:hover {
+      color: #ee4838;
+      border-bottom: 3px solid black;
+      padding-bottom: 5px;
+    }
+    /* delivery page media quries */
+    .delivery-img {
+      display: none;
+    }
+    .devivery-text {
+      width: 100%;
+    }
+  
+    .devivery-text h1 {
+      font-size: 40px;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+    .devivery-text p {
+      text-align: center;
+      /* background-color: #ee4838; */
+    }
+    .delivery-form {
+      width: 100%;
+    }
+    .delivery-form input {
+      border: 2px solid #fa7e2a;
+      padding: 0px;
+      width: 100%;
+    }
+    .Precious {
+      width: 100%;
+    }
+    .contaner {
+      width: 100%;
+    }
+    .Precious {
+      height: auto;
+    }
+    .Precious-Mainbox {
+      flex-wrap: wrap;
+    }
+    .Precious-box {
+      width: 100%;
+      height: auto;
+    }
+    /* poplar menu media */
+  
+    .poplar-menu {
+      margin: 0 20px;
+    }
+    .popularmenu-img {
+      height: auto;
+    }
+    .poplar-menu span {
+      font-size: 30px;
+    }
+    .menu-img-1 {
+      height: auto;
+      margin-top: 15px;
+    }
+    .menu-img-1 p {
+      font-size: 20px;
+    }
+    .restaurants-menu {
+      margin: 0 20px;
+    }
+    .restaurants-img {
+      flex-wrap: wrap;
+      padding: 0px 20px;
+    }
+    .restaurants-img1{
+      width:100%;
+      
+    }
+    .restaurants-box-1 {
+      width: 100%;
+      height: auto;
+      margin: 20px auto;
+      padding-bottom: 10px;
+    }
+    .img-text {
+      align-items: center;
+    }
+    .restaurants-menu span {
+      font-size: 30px;
+    }
+  
+    .restaurants-img2 {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0px 20px;
+    }
+    .samosa-img {
+      padding: 0px;
+    }
+    .samosa-img img {
+      object-fit: contain;
+      padding: 0px;
+    }
+    .samosa-img-text h5 {
+      font-size: 30px;
+    }
+    .samosa-img-text i {
+      font-size: 50px;
+    }
+    .MAIN-TRADITIONS {
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+    .traditions-img {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .traditions-text {
+      width: 100%;
+      text-align: center;
+      margin: 150px 20px 0px 20px;
+    }
+    .traditions-text-media h5 {
+      margin: 0px;
+      line-height: 150%;
+      text-align: center;
+    }
+    .traditions-text-media p {
+      margin-top: 20px;
+      line-height: 150%;
+      text-align: center;
+    }
+    .traditions-img1 img {
+      width: 80%;
+    }
+    .traditions-img2 img {
+      width: 100%;
+    }
+    /* cilent says css */
+    .client-says h5 {
+      font-size: 30px;
+      padding-top: 100px;
+    }
+    .client-mainbox {
+      flex-wrap: wrap;
+    }
+    .client-box {
+      width: 100%;
+      margin: 10px 20px;
+      height: auto;
+      padding-bottom: 10px;
+    }
+    /* get started css */
+    .get-started {
+      flex-wrap: wrap;
+      height: auto;
+      padding-bottom: 50px;
+    }
+    .get-started-haiding {
+      width: 100%;
+    }
+    .get-started-haiding p {
+      margin: 10px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 145%;
+    }
+    .get-started-haiding h5 {
+      margin: 10px;
+      text-align: center;
+      font-size: 25px;
+    }
+    .get-btn {
+      width: 100%;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .get-btn button {
+      margin: 10px auto;
+    }
+   
+    /* our blog page css */
+    .main-our-blog h5 {
+      font-size: 25px;
+    }
+    .mainblog-box {
+      flex-wrap: wrap;
+    }
+    .blog-box {
+      width: 100%;
+    }
+    .main-brand {
+      flex-wrap: wrap;
+      height: auto;
+    }
+    .brand-box {
+      margin: 0px;
+    }
+  
+    .food-delivery h6 {
+      font-size: 30px;
+    }
+    
+    .food-box {
+      width: 45%;
+    }
+    .footer-start {
+      height: auto;
+    }
+    .main-footer {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .About-us {
+      width: 100%;
+      text-align: center;
+    }
+    .About-us p {
+      text-align: center;
+      margin: 0px 20px;
+    }
+    .Links {
+      width: 100%;
+      text-align: center;
+    }
+    .Contact-us {
+      width: 100%;
+      text-align: center;
+    }
+    .usefull-links {
+      width: 100%;
+      text-align: center;
+    }
+    .socail-media {
+      text-align: center;
+    }
+    .socail-media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .popularmenu-img {
+      flex-wrap: wrap;
+    }
+    .menu-img-1 {
+      width: 100%;
+      margin-top: 20px;
+      padding: 20px;
+    }
+    .menu-img-1 img {
+      object-fit: cover;
+    }
+    .restaurants-menu span {
+      font-size: 25px;
+    }
+    .poplar-menu span {
+      font-size: 25px;
+    }
+    .restaurants-text {
+      text-align: center;
+    }
+    .blog-box {
+      text-align: center;
+    }
+    /* ..............................Menu page media start............... */
+    .menu-bg {
+      background-size: 100%;
+    }
+    .menu-bg h1 {
+      padding-top: 20px;
+      font-size: 30px;
+    }
+    .Discover-Your-Taste span{
+      margin: 0;
+    }
+    .Sushi-chinese-1 {
+      flex-wrap: wrap;
+    }
+    .sushibox-1 {
+      width: 100%;
+      margin: 10px 20px;
+      text-align: center;
+    }
+    .sushibox-1 img {
+      width: 100%;
+      height: 70%;
+    }
+    .Sushi-chinese-2 {
+      flex-wrap: wrap;
+    }
+    .High-Q {
+      /* margin-top: 50px; */
+      background-size: 100%;
+    }
+    .High-Q h3 {
+      text-align: center;
+      font-size: 15px;
+      color: white;
+      padding-top: 10px;
+    
+    }
+    .High-q-btn {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .High-q-btn button {
+      padding: 5px 10px;
+      font-size: 15px;
+    }
+  
+    .Korean-Italia-1 {
+      flex-wrap: wrap;
+    }
+    .Korean-Italia-2 {
+      flex-wrap: wrap;
+    }
+    /* .............................contact page media start.................... */
+    .chef-bg h1 {
+      font-size: 20px;
+    }
+  
+    .chef-text {
+      display: flex;
+      justify-content: center;
+    }
+    .chef-text a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+    }
+    .chef-text p {
+      color: white;
+      font-size: 15px;
+    }
+    .contact-mainbox {
+      flex-wrap: wrap;
+    }
+    .contact-us-img img{
+      width: 90%;
+    display: block;
+      margin: 0 auto;
+    }
+  
+    .contact-box {
+      width: 80%;
+      margin: 10px auto;
+      padding-top: 20px;
+    }
+    .Contact-Us-Question h2 {
+      font-size: 30px;
+    }
+    .contact-us-text {
+      width: 90%;
+      height: 600px;
+      position: relative;
+      top: 0px;
+      left: 0%;
+      margin: 0 auto;
+    }
+    .contact-form {
+      margin-top: 50px;
+    }
+    .conatct-maps iframe{
+      width: 90%;
+      height: 500px;
+      display: block;
+      margin: 0 auto;
+     }
+    
+  
+    /* ..............................CHEF PAGE CSS STRAT............... */
+  
+    .chef-bg h1 {
+      font-size: 20px;
+    }
+  
+    .chef-text {
+      display: flex;
+      justify-content: center;
+    }
+    .chef-text a {
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    .chef-text p {
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    .main-chef-box {
+      flex-wrap: wrap;
+    }
+    .main-chef-box2 {
+      flex-wrap: wrap;
+    }
+    .chef-box1 {
+      width: 90%;
+      margin: 20px auto;
+      height: auto;
+    }
+    .Our-chef span{
+      margin: 0px;
+    }
+    /* ..............................BLOG PAGE  CSS STRAT............... */
+  
+    .blog-bg {
+      background-size: 100%;
+    }
+    .bg-text h1 {
+      font-size: 30px;
+      padding-top: 20px;
+    }
+    .blog-text a {
+      font-size: 15px;
+    }
+    .blog-text p {
+      font-size: 15px;
+    }
+    .main-side {
+     flex-wrap: wrap;
+    }
+    .blogs-categry {
+      width: 100%;
+    }
+    .blog-search{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .blog-search input {
+      margin: 10px auto;
+      width: 90%;
+      height: 35px;
+      position: absolute;
+      border-radius: 5px;
+      color: #fafafa;
+      border: 1px solid rgba(128, 128, 128, 0.472);
+  
+    }
+    .search-btn {
+      position: absolute;
+      right: 5%;
+      top: -18px;
+      border: none;
+    }
+    .side-1 {
+      width: 90%;
+      height: auto;
+      /* border: 2px solid black; */
+       margin: 40px auto;
+       padding-top: 0px;
+      box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 9%);
+    }
+    .side-1 h3{
+      text-align: center;
+      margin:0px;
+     padding: 20px 0px;
+  }
+    .side-2 {
+      height: auto;
+      margin: 10px auto;
+      padding-bottom: 10px;
+    }
+    .side-2 h3{
+      text-align: center;
+    }
+    .side-3 {
+      height: auto;
+      margin: 10px auto;
+      padding-bottom: 10px;
+    }
+    .side-3 h3{
+      text-align: center;
+    }
+    .blog-img {
+      display: block;
+      width: 100%;
+    }
+    .main-blog-start-1 {
+      flex-wrap: wrap;
+    }
+    .blog1 {
+      width: 90%;
+      height: auto;
+      margin: 10px auto;
+  }
+  .main-blog-start-2 {
+    flex-wrap: wrap;
+  }
+  .main-blog-start-3{
+    flex-wrap: wrap;
+}
+.adress {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.phone{
+  justify-content: center;
+  align-items: center;
+
+}
+.email{
+  justify-content: center;
+  align-items: center;
+
+
+}
+  }
+  
+  /* .........................768 Breakpoints CSS STRAT .............*/
+  @media(min-width: 540px) and (max-width: 720px){
+      
+    /* Home PAGE CSS START */
+    .navbar-menu {
+        display: none;
+      }
+      #amab-burger i {
+        font-size: 35px;
+        right: 0px;
+        cursor: pointer;
+        padding-top: 20px;
+        margin-right: 10px;
+      }
+      .navbar {
+        display: flex;
+        position: relative;
+      }
+      .navbar-btn {
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+      .navbar-logo {
+        margin-left: 10px;
+      }
+      #icons {
+        display: block;
+      }
+      #navbar-menu2 {
+        /* position: absolute; */
+        position: fixed;
+        right: 0px;
+        width: 100%;
+        background-color: rgb(212, 144, 144);
+        z-index: 9999;
+      }
+      #navbar-menu2 ul li {
+        list-style: none;
+        margin: 15px 0px;
+        text-align: center;
+      }
+      #navbar-menu2 ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+      }
+      #navbar-menu2 ul li a:hover {
+        color: #ee4838;
+        border-bottom: 3px solid black;
+        padding-bottom: 5px;
+      }
+      .delivery-img {
+        display: none;
+      }
+      .devivery-text {
+        width: 100%;
+      }
+      .devivery-text h1 {
+        font-size: 45px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+      }
+      .devivery-text p {
+        text-align: center;
+      }
+      .delivery-form {
+        width: 100%;
+      }
+      .delivery-form input {
+        border: 2px solid #fa7e2a;
+        padding: 0px;
+        width: 100%;
+      }
+  
+      .Precious {
+        width: 100%;
+      }
+      .contaner {
+        width: 540px;
+        margin: 0 auto;
+      }
+      .Precious{
+        height: auto;
+
+      }
+      .Precious-Mainbox {
+      flex-wrap: wrap;
+        }
+      .Precious-box {
+      width: 90%;
+       margin-top: 20px;
+       height: auto;
+      }
+      .poplar-menu{
+        margin: 0px 20px;
+      }
+      .popularmenu-img{
+        flex-wrap: wrap;
+      }
+      .menu-img-1 {
+        width: 45%;
+        height: 200px;
+        margin: 20px auto;
+      }
+      .restaurants-img{
+        flex-wrap: wrap;
+      }
+    
+      .restaurants-img1{
+        width:45%;
+        margin: 0 auto;
+      }
+      .restaurants-box-1{
+        width: 100%;
+        margin: 20px auto;
+        height: auto;
+        padding-bottom: 10px;
+      }
+      .restaurants-menu{
+        margin: 0px 20px;
+      }
+      .samosa-img {
+        padding: 0px;
+      }
+      .samosa-img img {
+        object-fit: contain;
+        padding: 0px;
+      }  
+      .samosa-img-text h5{
+        font-size: 30px;
+      }
+  
+
+      .MAIN-TRADITIONS {
+        flex-wrap: wrap;
+      }
+      .traditions-img {
+        width: 90%;
+
+        margin: 0px auto;
+        padding: 0px;
+      }
+      .traditions-text {
+        width: 90%;
+        text-align: center;
+        display: block;
+        margin: 150px auto 0px auto;
+       
+      }
+      .traditions-text-media p{
+        margin-top: 10px;
+      }
+      .client-box {
+        width: 50%;
+        height:auto;
+       margin: 30px 20px;
+      }
+      .get-started {
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 50px;
+      }
+      .get-started-haiding {
+        width: 100%;
+      }
+      .get-btn {
+        width: 100%;
+       margin: 0 auto;
+      }
+      .get-btn button{
+        margin: 0 auto;
+      }
+      .get-started-haiding p{
+        text-align: center;
+        margin: 20px;
+      }
+      .mainblog-box {
+        flex-wrap: wrap;
+      }
+      .blog-box {
+        width: 45%;
+        height: auto;
+        margin: 10px auto;
+      }
+.brand-box img{
+
+  width: 80%;
+
+}
+.main-brand{
+  height: 80px;
+}
+.food-box{
+  width: 30%;
+}
+.footer-start {
+  height: auto;
+  
+}
+.main-footer {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.About-us{
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+.Links {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+.About-us > p {
+  text-align: center;
+  margin: 0px 10px;
+}
+.usefull-links{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Contact-us {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.adress {
+  flex-wrap: wrap;
+ 
+}
+.adress i{
+  margin: 0 auto;
+  
+}
+.adress p{
+  font-size: 20px;
+
+}
+.phone{
+  justify-content: center;
+}
+
+.phone p{
+  font-size: 20px;
+}
+.email {
+  justify-content: center;
+  
+}
+.socail-media {
+  text-align: center;
+}
+.socail-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adress p {
+  margin: 10px auto;
+}
+/* .............................Menu page css strat.......... */
+
+.menu-bg {
+  background-size: 100%;
+}
+.sushibox-1 {
+  width: 42%;
+  margin: 20px 10px;
+}
+.sushibox-1 img {
+  width: 100%;
+}
+.High-Q {
+  background-size: 100%;
+}
+.High-Q h3 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding-top: 20px;
+  
+}
+.High-q-btn button {
+  padding: 10px 15px;
+  font-size: 18px;
+}
+/* chef page media strat */
+.chef-box1 {
+  width: 45%;
+  height: auto;
+  margin: 20px auto;
+  padding-bottom: 22px;
+}
+.main-side {
+  flex-wrap: wrap;
+}
+.blogs-categry {
+  width: 100%;
+}
+.blog-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+.blog-search input {
+  margin: 20px auto;
+  width: 90%;
+  height: 35px;
+  position: absolute;
+  border-radius: 5px;
+  color: #fafafa;
+  border: 1px solid rgba(128, 128, 128, 0.472);
+
+}
+.search-btn {
+  position: absolute;
+  right: 5%;
+  top: -18px;
+  border: none;
+}
+.side-1 {
+  width: 90%;
+  height: auto;
+  /* border: 2px solid black; */
+   margin: 40px auto;
+   padding-top: 0px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 9%);
+  text-align: center;
+}
+.side-1 h3{
+  text-align: center;
+  margin:0px;
+ padding: 20px 0px;
+}
+.side-2 {
+  height: auto;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  
+}
+.side2-text{
+  display: block;
+  text-align: center;
+}
+.side-2 h3{
+  text-align: center;
+}
+.side-3 {
+  height: auto;
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+.side-3 h3{
+  text-align: center;
+}
+.blog-img {
+  display: block;
+  width: 100%;
+}
+.contact-mainbox {
+  flex-wrap: wrap;
+
+}
+.contact-box{
+  width: 45%;
+  margin: 10px auto;
+  height: auto;
+  padding-bottom: 15px;
+}
+.contact-us-img img{
+  width: 90%;
+display: block;
+  margin: 0 auto;
+}
+.contact-us-text {
+  width: 90%;
+  height: 600px;
+  position: relative;
+  top: 0px;
+  left: 0%;
+  margin: 0 auto;
+}
+.conatct-maps iframe{
+  width: 100%;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+ }
+} 
+
+
+ /* .........................992 Breakpoints CSS STRAT .............*/
+ @media (max-width: 960px) and (min-width: 720px){
+
+  .contaner{
+    max-width: 720px;
+  }
+
+  .navbar-menu li a{
+    font-size: 12px;
+  }
+  .main-delivery {
+  flex-wrap: wrap;
+  }
+  .delivery-img {
+    width: 100%;
+  background-size: 100%;
+  }
+  .delivery-img img {
+    margin: 155px auto 0px auto;
+    position: relative;
+    animation: firstAni2 5s infinite;
+  }
+  @keyframes firstAni2 {
+    from {
+      left: 100px;
+    }
+    to {
+      left: 490px;
+    }
+  }
+  .devivery-text {
+    width: 100%;
+    margin: 0px 20px;
+  }
+  .devivery-text h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .devivery-text p {
+    text-align: center;
+    /* background-color: #ee4838; */
+  }
+  .delivery-form {
+    width: 100%;
+  }
+  .delivery-form input {
+    border: 2px solid #fa7e2a;
+    padding: 0px;
+    width: 100%;
+  }
+  .Precious{
+    width: 100%;
+    height: auto;
+
+  }
+  .Precious-Mainbox {
+  flex-wrap: wrap;
+    }
+  .Precious-box {
+    width: 45%;
+    margin: 20px auto;
+  }
+  
+  .Precious{
+    height: auto;
+
+  }
+  .Precious-Mainbox {
+  flex-wrap: wrap;
+    }
+  .Precious-box {
+    width: 45%;
+    margin: 20px auto;
+  }
+  .poplar-menu{
+    margin: 0px 20px;
+  }
+  .popularmenu-img{
+    flex-wrap: wrap;
+  }
+  .menu-img-1 {
+    width: 45%;
+    height: 200px;
+    margin: 20px auto
+  }
+  .restaurants-img{
+    flex-wrap: wrap;
+  }
+
+  .restaurants-img1{
+    width:45%;
+    margin: 0 auto;
+  }
+  .restaurants-box-1{
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .restaurants-menu{
+    margin: 0px 20px;
+  }
+  .samosa-img {
+    padding: 0px;
+  }
+  .samosa-img img {
+    object-fit: cover;
+    width: 100%;
+  }  
+  .samosa-img-text h5{
+    font-size: 30px;
+  }
+  .MAIN-TRADITIONS {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .traditions-img {
+    width: 90%;
+
+    margin: 0px auto;
+    padding: 0px;
+  }
+  .traditions-text {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 150px 20px 0px 20px;
+   
+  }
+  .traditions-text-media p{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .client-box {
+    width: 50%;
+    height:auto;
+   margin: 30px 20px;
+  }
+.mainicons-text{
+  justify-content: center;
+  
+}
+.traditions-img{
+  display: block;
+  align-items: center;
+  margin-top: 20px;
+}
+.get-started {
+  width: 100%;
+  height: auto;
+  /* flex-wrap: wrap; */
+  margin: 0 auto;
+  flex-wrap: wrap;
+ }
+ .get-started-haiding{
+  width: 100%;
+  text-align: center;
+}
+.get-started-haiding p{
+  margin: 10px 20px;
+ 
+}
+.get-btn {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.get-btn button {
+  margin: 10px auto;
+  
+}
+.footer-start {
+  height: auto;
+  width: 100%;
+  
+}
+.main-footer {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.About-us{
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+.Links {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+.About-us > p {
+  text-align: center;
+  margin: 0px 10px;
+}
+.usefull-links{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Contact-us {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.adress {
+  flex-wrap: wrap;
+ 
+}
+.adress i{
+  margin: 0 auto;
+  
+}
+.adress p{
+  font-size: 20px;
+
+}
+.phone{
+  justify-content: center;
+}
+
+.phone p{
+  font-size: 20px;
+}
+.email {
+  justify-content: center;
+  
+}
+.socail-media {
+  text-align: center;
+}
+.socail-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adress p {
+  margin: 10px auto;
+}
+
+/* menu page css strat */
+.menu-bg {
+  background-size: 100%;
+}
+.sushibox-1 {
+  width: 50%;
+  margin: 20px auto;
+}
+.sushibox-1 img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.High-Q {
+  background-size: 100%;
+}
+.High-Q h3 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  
+}
+.High-q-btn button {
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.chef-box1 {
+  width: 45%;
+  height: auto;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+.contact-mainbox {
+  flex-wrap: wrap;
+}
+.contact-box{
+  width: 45%;
+  margin: 10px auto;
+  height: auto;
+  padding-bottom: 15px;
+}
+.main-side {
+  flex-wrap: wrap;
+}
+.blogs-categry {
+  width: 100%;
+}
+.blog-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+.blog-search input {
+  margin: 20px auto;
+  width: 90%;
+  height: 35px;
+  position: absolute;
+  border-radius: 5px;
+  color: #fafafa;
+  border: 1px solid rgba(128, 128, 128, 0.472);
+
+}
+.search-btn {
+  position: absolute;
+  right: 5%;
+  top: -18px;
+  border: none;
+}
+.side-1 {
+  width: 45%;
+  height: auto;
+  /* border: 2px solid black; */
+   margin: 40px auto;
+   padding-top: 0px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 9%);
+  text-align: center;
+}
+.side-1 h3{
+  text-align: center;
+  margin:0px;
+ padding: 20px 0px;
+}
+.side-2 {
+  height: auto;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  
+}
+.side2-text{
+  display: block;
+  text-align: center;
+}
+.side-2 h3{
+  text-align: center;
+}
+.side-3 {
+  height: auto;
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+.side-3 h3{
+  text-align: center;
+}
+.blog-img {
+  display: block;
+  width: 100%;
+}
+ }
+ 
+ @media (max-width: 1140px) and (min-width: 960px){
+
+  .contaner{
+    width: 960px;
+    margin: 0 auto;
+  }
+  .main-delivery {
+    flex-wrap: wrap;
+    }
+    .delivery-img {
+      width: 100%;
+    background-size: 100%;
+    }
+    .delivery-img img {
+      margin: 155px auto 0px auto;
+      position: relative;
+      animation: firstAni2 5s infinite;
+    }
+    @keyframes firstAni2 {
+      from {
+        left: 100px;
+      }
+      to {
+        left: 490px;
+      }
+    }
+    .devivery-text {
+      width: 100%;
+      margin: 0px 20px;
+    }
+    .devivery-text h1 {
+      font-size: 40px;
+      text-align: center;
+      padding: 0px;
+      margin-top: 20px;
+    }
+    .devivery-text p {
+      text-align: center;
+      /* background-color: #ee4838; */
+    }
+    .delivery-form {
+      width: 100%;
+    }
+    .delivery-form input {
+      border: 2px solid #fa7e2a;
+      padding: 0px;
+      width: 100%;
+    }
+    .restaurants-img1{
+      width:45%;
+      margin: 0 auto;
+    }
+    .restaurants-box-1{
+      width: 100%;
+      margin: 20px auto;
+      height: auto;
+      padding-bottom: 10px;
+    }
+    .restaurants-menu{
+      margin: 0px 20px;
+    }
+    .get-started {
+      width: 100%;
+      height: auto;
+      /* flex-wrap: wrap; */
+      margin: 0 auto;
+      flex-wrap: wrap;
+     }
+     .sushibox-1 {
+      width: 30%;
+      margin: 10px auto;
+    }
+     .sushibox-1 img{
+       width: 100%;
+     }
+     .chef-box1 {
+       padding-bottom: 20px;
+     }
+
+ }
+ 
